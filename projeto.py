@@ -5,7 +5,7 @@ def calcular_montante(capital, taxa_juros, meses):
     return capital * (1 + taxa_juros / 100) ** meses
 
 try:
-    tipo = input("Tipo de investimento: ")
+    tipo = input("Tipo de investimento (CDB ou LCI): ")
     capital = float(input("Capital inicial: "))
     taxa = float(input("Taxa de juros mensal (%): "))
     meses = int(input("Número de meses: "))
