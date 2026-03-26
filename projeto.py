@@ -1,5 +1,4 @@
 from datetime import datetime, timedelta
-from datetime import datetime, timedelta
 
 def calcular_montante(capital, taxa_juros, meses):
     return capital * (1 + taxa_juros / 100) ** meses
